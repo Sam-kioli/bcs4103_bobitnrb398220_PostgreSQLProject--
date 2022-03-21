@@ -1,0 +1,18 @@
+A. Extract/ clone the repository to htdocs folder.
+
+B. Deploying the database to your environment:
+    1. Create a new database 'recipes' using pgAdmin.
+    2. Right-click on the database and select restore.
+    3. Under Filename, browse for the file 'restore' from the root folder; Role name, select 'postgres'.
+C. Connecting to the database:
+    1. open file DB/db.php.
+    2. edit $credentials; add your postgresql user & password under [user] and [password] respectively.(example. user=postgres password=postgres).
+
+D. User credentials:
+    Administrator: 
+        username: admin
+        password: twenty22
+    Users:
+        username: janedoe/johndoe
+        password: twenty22
+;) Enjoy
